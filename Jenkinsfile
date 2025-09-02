@@ -4,11 +4,11 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-<<<<<<< HEAD
-                git 'https://github.com/polanayukesh/sample-flask-app.git'
-=======
+
+
+
                 git 'https://github.com/polanayukesh/sample-app-demo-testing.git'
->>>>>>> 034cca9 (modified jenkins)
+
             }
         }
 
